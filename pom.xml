@@ -9,16 +9,15 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>maven-plugin</packaging>
 
-	<name>CKAN Maven Plugin</name>
-	<url>https://github.com/Scaseco/ckan-maven-plugin</url>
-	<description>Maven plugin for publishing artifacts to CKAN</description>
+	<name>Mvnize Maven Plugin</name>
+	<url>https://github.com/Scaseco/mvnize-maven-plugin</url>
+	<description>Organize a set of files as a Maven project for publishing and consumption</description>
 	<inceptionYear>2023</inceptionYear>
 
 	<scm>
-		<connection>scm:git:git@github.com:Scaseco/sparql-maven-plugin.git</connection>
-		<developerConnection>
-			scm:git:git@github.com:Scaseco/sparql-maven-plugin.git</developerConnection>
-		<url>https://github.com/Scaseco/sparql-maven-plugin.git</url>
+		<connection>scm:git:git@github.com:Scaseco/mvnize-maven-plugin.git</connection>
+		<developerConnection>scm:git:git@github.com:Scaseco/mvnize-maven-plugin.git</developerConnection>
+		<url>https://github.com/Scaseco/mvnize-maven-plugin.git</url>
 		<tag>HEAD</tag>
 	</scm>
 
@@ -85,6 +84,7 @@
 			<timezone>+1</timezone>
 		</developer>
 	</developers>
+
 	<profiles>
 		<profile>
 			<id>release</id>
