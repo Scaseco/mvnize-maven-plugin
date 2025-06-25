@@ -6,7 +6,7 @@
 
 	<groupId>org.aksw.maven.plugins</groupId>
 	<artifactId>mvnize-maven-plugin</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>maven-plugin</packaging>
 
 	<name>Mvnize Maven Plugin</name>
@@ -17,8 +17,7 @@
 
 	<scm>
 		<connection>scm:git:git@github.com:Scaseco/mvnize-maven-plugin.git</connection>
-		<developerConnection>
-			scm:git:git@github.com:Scaseco/mvnize-maven-plugin.git</developerConnection>
+		<developerConnection>scm:git:git@github.com:Scaseco/mvnize-maven-plugin.git</developerConnection>
 		<url>https://github.com/Scaseco/mvnize-maven-plugin.git</url>
 		<tag>HEAD</tag>
 	</scm>
