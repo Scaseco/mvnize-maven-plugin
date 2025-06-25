@@ -35,8 +35,6 @@
 		<junit.version>4.13.2</junit.version>
 
 		<central-publishing-maven-plugin.version>0.7.0</central-publishing-maven-plugin.version>
-		<!--
-		<nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version> -->
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -190,11 +188,6 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-javadoc-plugin</artifactId>
 					<version>${maven-javadoc-plugin.version}</version>
-				</plugin>
-				<plugin>
-					<groupId>org.sonatype.plugins</groupId>
-					<artifactId>nexus-staging-maven-plugin</artifactId>
-					<version>${nexus-staging-maven-plugin.version}</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
