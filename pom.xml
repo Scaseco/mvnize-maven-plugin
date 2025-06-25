@@ -23,6 +23,11 @@
 		<tag>HEAD</tag>
 	</scm>
 
+	<issueManagement>
+		<system>GitHub</system>
+		<url>https://github.com/Scaseco/mvnize-maven-plugin/issues</url>
+	</issueManagement>
+
 	<properties>
 		<jackan.version>0.4.2</jackan.version>
 		<jackson.version>2.15.2</jackson.version>
@@ -36,8 +41,6 @@
 		<junit.version>4.13.2</junit.version>
 
 		<central-publishing-maven-plugin.version>0.7.0</central-publishing-maven-plugin.version>
-		<!--
-		<nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version> -->
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -193,11 +196,6 @@
 					<version>${maven-javadoc-plugin.version}</version>
 				</plugin>
 				<plugin>
-					<groupId>org.sonatype.plugins</groupId>
-					<artifactId>nexus-staging-maven-plugin</artifactId>
-					<version>${nexus-staging-maven-plugin.version}</version>
-				</plugin>
-				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-gpg-plugin</artifactId>
 					<version>${maven-gpg-plugin.version}</version>
@@ -341,6 +339,7 @@
 			<plugin>
 				<artifactId>maven-plugin-plugin</artifactId>
 			</plugin>
+			<!--
 			<plugin>
 				<artifactId>maven-changes-plugin</artifactId>
 				<version>${maven-changes-plugin.version}</version>
@@ -355,6 +354,7 @@
 					<onlyMilestoneIssues>false</onlyMilestoneIssues>
 				</configuration>
 			</plugin>
+			-->
 			<plugin>
 				<artifactId>maven-javadoc-plugin</artifactId>
 				<version>${maven-javadoc-plugin.version}</version>
