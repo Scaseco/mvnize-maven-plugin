@@ -17,10 +17,16 @@
 
 	<scm>
 		<connection>scm:git:git@github.com:Scaseco/mvnize-maven-plugin.git</connection>
-		<developerConnection>scm:git:git@github.com:Scaseco/mvnize-maven-plugin.git</developerConnection>
+		<developerConnection>
+			scm:git:git@github.com:Scaseco/mvnize-maven-plugin.git</developerConnection>
 		<url>https://github.com/Scaseco/mvnize-maven-plugin.git</url>
 		<tag>HEAD</tag>
 	</scm>
+
+	<issueManagement>
+		<system>GitHub</system>
+		<url>https://github.com/Scaseco/mvnize-maven-plugin/issues</url>
+	</issueManagement>
 
 	<properties>
 		<jackan.version>0.4.2</jackan.version>
@@ -333,6 +339,7 @@
 			<plugin>
 				<artifactId>maven-plugin-plugin</artifactId>
 			</plugin>
+			<!--
 			<plugin>
 				<artifactId>maven-changes-plugin</artifactId>
 				<version>${maven-changes-plugin.version}</version>
@@ -347,6 +354,7 @@
 					<onlyMilestoneIssues>false</onlyMilestoneIssues>
 				</configuration>
 			</plugin>
+			-->
 			<plugin>
 				<artifactId>maven-javadoc-plugin</artifactId>
 				<version>${maven-javadoc-plugin.version}</version>
