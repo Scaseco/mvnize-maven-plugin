@@ -14,6 +14,9 @@ import org.apache.maven.plugins.annotations.Mojo;
 import org.apache.maven.plugins.annotations.Parameter;
 import org.apache.maven.project.MavenProject;
 
+/**
+ * Generate a pom.xml file (if yet absent) and attach a specified file as an artifact to it.
+ */
 @Mojo(name = "attach", requiresProject = false)
 public class MvnizeMojoGeneratePom extends AbstractMojo {
     @Parameter(defaultValue = "${project.file}", readonly = true)
