@@ -3,7 +3,7 @@ Maven plugin to "mavenize" a set of files by generating a pom.xml that attaches 
 
 The `mvnize-maven-plugin` features two goals with the following purposes:
 * `attach`: Attaches a file to the `pom.xml` in order to prepare it for **publishing**. The POM is generated if it does not yet exist. Typically, the file extension becomes the Maven type, and the file name the Maven classifier. This goal updates the `pom.xml` with a `build-helper-maven-plugin` section that declares the appropriate file-to-artifact mappings.
-* `consumer`: Reads in a `pom.xml`  (typically one generated using the `attach` goal) and derives a `consumer.pom.xml` for **consumption**. This goal reads the `build-helper-maven-plugin` configuration and adds all artifacts as **dependencies** to the `consumer.pom.xml`.
+* `consume`: Reads in a `pom.xml`  (typically one generated using the `attach` goal) and derives a `consumer.pom.xml` for **consumption**. This goal reads the `build-helper-maven-plugin` configuration and adds all artifacts as **dependencies** to the `consumer.pom.xml`.
 
 ### Goal: help
 
